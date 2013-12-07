@@ -26,6 +26,8 @@
 		DE9A92791853E3E300798F11 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A92511853E3E200798F11 /* CoreData.framework */; };
 		DE9A92811853E3E300798F11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9A927F1853E3E300798F11 /* InfoPlist.strings */; };
 		DE9A92831853E3E300798F11 /* SignificantDatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A92821853E3E300798F11 /* SignificantDatesTests.m */; };
+		DEBAFF5F1853E9480088BEA8 /* SDCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */; };
+		DEBAFF601853E9480088BEA8 /* SDCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		DE9A927E1853E3E300798F11 /* SignificantDatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SignificantDatesTests-Info.plist"; sourceTree = "<group>"; };
 		DE9A92801853E3E300798F11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE9A92821853E3E300798F11 /* SignificantDatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignificantDatesTests.m; sourceTree = "<group>"; };
+		DEBAFF5D1853E9480088BEA8 /* SDCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataController.h; sourceTree = "<group>"; };
+		DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataController.m; sourceTree = "<group>"; };
+		DEBAFF611853EA550088BEA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,7 @@
 		DE9A923F1853E3E200798F11 = {
 			isa = PBXGroup;
 			children = (
+				DEBAFF611853EA550088BEA8 /* README.md */,
 				DE9A92531853E3E200798F11 /* SignificantDates */,
 				DE9A927C1853E3E300798F11 /* SignificantDatesTests */,
 				DE9A924A1853E3E200798F11 /* Frameworks */,
@@ -129,6 +135,8 @@
 				DE9A925D1853E3E300798F11 /* AppDelegate.m */,
 				DE9A925F1853E3E300798F11 /* Main_iPhone.storyboard */,
 				DE9A92621853E3E300798F11 /* Main_iPad.storyboard */,
+				DEBAFF5D1853E9480088BEA8 /* SDCoreDataController.h */,
+				DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */,
 				DE9A92681853E3E300798F11 /* MasterViewController.h */,
 				DE9A92691853E3E300798F11 /* MasterViewController.m */,
 				DE9A926B1853E3E300798F11 /* DetailViewController.h */,
@@ -272,6 +280,7 @@
 				DE9A925E1853E3E300798F11 /* AppDelegate.m in Sources */,
 				DE9A92671853E3E300798F11 /* SignificantDates.xcdatamodeld in Sources */,
 				DE9A925A1853E3E300798F11 /* main.m in Sources */,
+				DEBAFF5F1853E9480088BEA8 /* SDCoreDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9A92831853E3E300798F11 /* SignificantDatesTests.m in Sources */,
+				DEBAFF601853E9480088BEA8 /* SDCoreDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +500,7 @@
 				DE9A92881853E3E300798F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE9A92891853E3E300798F11 /* Build configuration list for PBXNativeTarget "SignificantDatesTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +509,7 @@
 				DE9A928B1853E3E300798F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
