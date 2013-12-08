@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Birthday" syncable="YES">
+    <entity name="Birthday" representedClassName="Birthday" syncable="YES">
         <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="facebook" optional="YES" attributeType="String" syncable="YES"/>
@@ -11,7 +11,7 @@
         <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
-    <entity name="Holiday" syncable="YES">
+    <entity name="Holiday" representedClassName="Holiday" syncable="YES">
         <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
@@ -24,7 +24,7 @@
         <attribute name="wikipediaLink" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Birthday" positionX="-54" positionY="-18" width="128" height="180"/>
-        <element name="Holiday" positionX="-36" positionY="63" width="128" height="193"/>
+        <element name="Birthday" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Holiday" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>
