@@ -27,6 +27,8 @@
 @synthesize entityName;
 @synthesize dates;
 
+// initWithStyle: isn't called
+// storyboard calls initWithCoder:
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -49,8 +51,9 @@
 
 - (void)viewDidLoad
 {
+    // self.entityName has already been set (by instantiator from storyboard?)
     [super viewDidLoad];
-    
+
     self.managedObjectContext = [[SDCoreDataController sharedInstance] newManagedObjectContext];
     self.dateFormatter = [[NSDateFormatter alloc] init];
     [self.dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"GMT"]];
