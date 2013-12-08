@@ -14,11 +14,7 @@
 		DE9A92581853E3E200798F11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9A92561853E3E200798F11 /* InfoPlist.strings */; };
 		DE9A925A1853E3E300798F11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A92591853E3E300798F11 /* main.m */; };
 		DE9A925E1853E3E300798F11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A925D1853E3E300798F11 /* AppDelegate.m */; };
-		DE9A92611853E3E300798F11 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9A925F1853E3E300798F11 /* Main_iPhone.storyboard */; };
-		DE9A92641853E3E300798F11 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9A92621853E3E300798F11 /* Main_iPad.storyboard */; };
 		DE9A92671853E3E300798F11 /* SignificantDates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE9A92651853E3E300798F11 /* SignificantDates.xcdatamodeld */; };
-		DE9A926A1853E3E300798F11 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A92691853E3E300798F11 /* MasterViewController.m */; };
-		DE9A926D1853E3E300798F11 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A926C1853E3E300798F11 /* DetailViewController.m */; };
 		DE9A926F1853E3E300798F11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9A926E1853E3E300798F11 /* Images.xcassets */; };
 		DE9A92761853E3E300798F11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A92751853E3E300798F11 /* XCTest.framework */; };
 		DE9A92771853E3E300798F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A924B1853E3E200798F11 /* Foundation.framework */; };
@@ -52,13 +48,7 @@
 		DE9A925B1853E3E300798F11 /* SignificantDates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignificantDates-Prefix.pch"; sourceTree = "<group>"; };
 		DE9A925C1853E3E300798F11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE9A925D1853E3E300798F11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE9A92601853E3E300798F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		DE9A92631853E3E300798F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		DE9A92661853E3E300798F11 /* SignificantDates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignificantDates.xcdatamodel; sourceTree = "<group>"; };
-		DE9A92681853E3E300798F11 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		DE9A92691853E3E300798F11 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		DE9A926B1853E3E300798F11 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		DE9A926C1853E3E300798F11 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		DE9A926E1853E3E300798F11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE9A92741853E3E300798F11 /* SignificantDatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignificantDatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9A92751853E3E300798F11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -133,14 +123,8 @@
 			children = (
 				DE9A925C1853E3E300798F11 /* AppDelegate.h */,
 				DE9A925D1853E3E300798F11 /* AppDelegate.m */,
-				DE9A925F1853E3E300798F11 /* Main_iPhone.storyboard */,
-				DE9A92621853E3E300798F11 /* Main_iPad.storyboard */,
 				DEBAFF5D1853E9480088BEA8 /* SDCoreDataController.h */,
 				DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */,
-				DE9A92681853E3E300798F11 /* MasterViewController.h */,
-				DE9A92691853E3E300798F11 /* MasterViewController.m */,
-				DE9A926B1853E3E300798F11 /* DetailViewController.h */,
-				DE9A926C1853E3E300798F11 /* DetailViewController.m */,
 				DE9A926E1853E3E300798F11 /* Images.xcassets */,
 				DE9A92651853E3E300798F11 /* SignificantDates.xcdatamodeld */,
 				DE9A92541853E3E200798F11 /* Supporting Files */,
@@ -253,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9A92641853E3E300798F11 /* Main_iPad.storyboard in Resources */,
 				DE9A926F1853E3E300798F11 /* Images.xcassets in Resources */,
-				DE9A92611853E3E300798F11 /* Main_iPhone.storyboard in Resources */,
 				DE9A92581853E3E200798F11 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,8 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9A926D1853E3E300798F11 /* DetailViewController.m in Sources */,
-				DE9A926A1853E3E300798F11 /* MasterViewController.m in Sources */,
 				DE9A925E1853E3E300798F11 /* AppDelegate.m in Sources */,
 				DE9A92671853E3E300798F11 /* SignificantDates.xcdatamodeld in Sources */,
 				DE9A925A1853E3E300798F11 /* main.m in Sources */,
@@ -310,22 +290,6 @@
 				DE9A92571853E3E200798F11 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		DE9A925F1853E3E300798F11 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9A92601853E3E300798F11 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DE9A92621853E3E300798F11 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9A92631853E3E300798F11 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		DE9A927F1853E3E300798F11 /* InfoPlist.strings */ = {
