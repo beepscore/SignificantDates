@@ -1,0 +1,81 @@
+
+/* Class = "IBUITextField"; placeholder = "Give gifts"; ObjectID = "1Jx-6B-Ang"; */
+"1Jx-6B-Ang.placeholder" = "Give gifts";
+
+/* Class = "IBUILabel"; text = "Johnny Appleseed"; ObjectID = "3sS-RQ-hFu"; */
+"3sS-RQ-hFu.text" = "Johnny Appleseed";
+
+/* Class = "IBUIButton"; normalTitle = "Set Date"; ObjectID = "3yr-JZ-UJI"; */
+"3yr-JZ-UJI.normalTitle" = "Set Date";
+
+/* Class = "IBUIButton"; normalTitle = "Set Date"; ObjectID = "5vg-sH-1J0"; */
+"5vg-sH-1J0.normalTitle" = "Set Date";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "6Kf-XY-YhO"; */
+"6Kf-XY-YhO.text" = "Name";
+
+/* Class = "IBUINavigationItem"; title = "Birthdays"; ObjectID = "6wQ-4F-Xnb"; */
+"6wQ-4F-Xnb.title" = "Birthdays";
+
+/* Class = "IBUILabel"; text = "Facebook"; ObjectID = "7zH-45-Ylk"; */
+"7zH-45-Ylk.text" = "Facebook";
+
+/* Class = "IBUILabel"; text = "Date"; ObjectID = "8G4-l4-8wk"; */
+"8G4-l4-8wk.text" = "Date";
+
+/* Class = "IBUINavigationItem"; title = "Name"; ObjectID = "9w5-EN-arg"; */
+"9w5-EN-arg.title" = "Name";
+
+/* Class = "IBUILabel"; text = "7/21/12"; ObjectID = "BIY-vI-pae"; */
+"BIY-vI-pae.text" = "7/21/12";
+
+/* Class = "IBUITextField"; placeholder = "Cigars"; ObjectID = "CJR-7w-h6d"; */
+"CJR-7w-h6d.placeholder" = "Cigars";
+
+/* Class = "IBUITextField"; placeholder = "John Doe"; ObjectID = "EaG-nw-cUb"; */
+"EaG-nw-cUb.placeholder" = "John Doe";
+
+/* Class = "IBUILabel"; text = "Wikipedia"; ObjectID = "FMp-RE-P7N"; */
+"FMp-RE-P7N.text" = "Wikipedia";
+
+/* Class = "IBUILabel"; text = "Details"; ObjectID = "Fyk-xN-2dD"; */
+"Fyk-xN-2dD.text" = "Details";
+
+/* Class = "IBUITextField"; placeholder = "Christmas"; ObjectID = "PXa-PN-gjn"; */
+"PXa-PN-gjn.placeholder" = "Christmas";
+
+/* Class = "IBUILabel"; text = "Gift Ideas"; ObjectID = "Qkx-IU-Aig"; */
+"Qkx-IU-Aig.text" = "Gift Ideas";
+
+/* Class = "IBUITextField"; placeholder = "jdoe1234"; ObjectID = "Qmc-ST-tBl"; */
+"Qmc-ST-tBl.placeholder" = "jdoe1234";
+
+/* Class = "IBUINavigationItem"; title = "Add Birthday"; ObjectID = "T1r-hI-n5F"; */
+"T1r-hI-n5F.title" = "Add Birthday";
+
+/* Class = "IBUITabBarItem"; title = "Holidays"; ObjectID = "YnZ-1F-O0Y"; */
+"YnZ-1F-O0Y.title" = "Holidays";
+
+/* Class = "IBUILabel"; text = "Date"; ObjectID = "axU-Js-d6g"; */
+"axU-Js-d6g.text" = "Date";
+
+/* Class = "IBUINavigationItem"; title = "Holidays"; ObjectID = "dbn-bt-enq"; */
+"dbn-bt-enq.title" = "Holidays";
+
+/* Class = "IBUITabBarItem"; title = "Birthdays"; ObjectID = "eHn-3N-Kx4"; */
+"eHn-3N-Kx4.title" = "Birthdays";
+
+/* Class = "IBUINavigationItem"; title = "Add Holiday"; ObjectID = "iKg-pl-XNW"; */
+"iKg-pl-XNW.title" = "Add Holiday";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "kcz-PK-XbM"; */
+"kcz-PK-XbM.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Christmas"; ObjectID = "xqL-YU-nfu"; */
+"xqL-YU-nfu.text" = "Christmas";
+
+/* Class = "IBUITextField"; placeholder = "http://en.wikipedia.org/wiki/Christmas"; ObjectID = "yVJ-9E-bVQ"; */
+"yVJ-9E-bVQ.placeholder" = "http://en.wikipedia.org/wiki/Christmas";
+
+/* Class = "IBUILabel"; text = "12/31/12"; ObjectID = "zIs-AB-Qam"; */
+"zIs-AB-Qam.text" = "12/31/12";
