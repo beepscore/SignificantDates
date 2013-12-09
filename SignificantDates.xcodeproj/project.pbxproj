@@ -242,10 +242,10 @@
 		DEDF8DE5185565D700E206E7 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				DE97610918554450003D197D /* BSHTTPSessionManager.h */,
-				DE97610A18554450003D197D /* BSHTTPSessionManager.m */,
 				DEFFB6F21855744200E1448E /* BSParseDotComRequestSerializer.h */,
 				DEFFB6F31855744200E1448E /* BSParseDotComRequestSerializer.m */,
+				DE97610918554450003D197D /* BSHTTPSessionManager.h */,
+				DE97610A18554450003D197D /* BSHTTPSessionManager.m */,
 			);
 			name = Networking;
 			path = ..;

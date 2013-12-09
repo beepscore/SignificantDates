@@ -7,6 +7,7 @@
 //
 
 #import "BSHTTPSessionManager.h"
+#import "BSParseDotComRequestSerializer.h"
 
 static NSString * const kBSParseAPIBaseURLString = @"https://api.parse.com/1/";
 
@@ -19,9 +20,33 @@ static NSString * const kBSParseAPIBaseURLString = @"https://api.parse.com/1/";
     dispatch_once(&once, ^{
         // call designated initializer
         sharedInstance = [[self alloc] initWithBaseURL:[NSURL URLWithString:kBSParseAPIBaseURLString]
-                                  sessionConfiguration:nil];
+                                  sessionConfiguration:nil
+                                     requestSerializer:[[BSParseDotComRequestSerializer alloc] init]];
     });
     return sharedInstance;
+}
+
+#pragma mark - Initializers
+// designated initializer
+- (instancetype)initWithBaseURL:(NSURL *)aUrl
+           sessionConfiguration:(NSURLSessionConfiguration *)aConfiguration
+              requestSerializer:(BSParseDotComRequestSerializer *)aRequestSerializer {
+
+    // call super's designated intializer
+    self = [super initWithBaseURL:aUrl sessionConfiguration:aConfiguration];
+    if (self) {
+        self.requestSerializer = aRequestSerializer;
+    }
+    return self;
+}
+
+// override super's designated initializer
+- (instancetype)initWithBaseURL:(NSURL *)url
+           sessionConfiguration:(NSURLSessionConfiguration *)configuration {
+    // call designated initializer
+    return [self initWithBaseURL:url
+            sessionConfiguration:configuration
+               requestSerializer:nil];
 }
 
 @end
