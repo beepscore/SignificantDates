@@ -19,6 +19,8 @@
 		DE21440F1853FB2F00437BC1 /* SDDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2144091853FB2F00437BC1 /* SDDateTableViewController.m */; };
 		DE2144121853FB6E00437BC1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2144101853FB6E00437BC1 /* Main_iPhone.storyboard */; };
 		DE2144161853FC3300437BC1 /* SDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2144151853FC3300437BC1 /* SDTableViewCell.m */; };
+		DE97610B18554450003D197D /* BSHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97610A18554450003D197D /* BSHTTPSessionManager.m */; };
+		DE97610C18554450003D197D /* BSHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97610A18554450003D197D /* BSHTTPSessionManager.m */; };
 		DE9A924C1853E3E200798F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A924B1853E3E200798F11 /* Foundation.framework */; };
 		DE9A924E1853E3E200798F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A924D1853E3E200798F11 /* CoreGraphics.framework */; };
 		DE9A92501853E3E200798F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A924F1853E3E200798F11 /* UIKit.framework */; };
@@ -66,6 +68,8 @@
 		DE2144141853FC3300437BC1 /* SDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewCell.h; sourceTree = "<group>"; };
 		DE2144151853FC3300437BC1 /* SDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewCell.m; sourceTree = "<group>"; };
 		DE21441B1853FE8300437BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		DE97610918554450003D197D /* BSHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSHTTPSessionManager.h; sourceTree = "<group>"; };
+		DE97610A18554450003D197D /* BSHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSHTTPSessionManager.m; sourceTree = "<group>"; };
 		DE9A92481853E3E200798F11 /* SignificantDates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignificantDates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9A924B1853E3E200798F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE9A924D1853E3E200798F11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -194,6 +198,8 @@
 				DE2144101853FB6E00437BC1 /* Main_iPhone.storyboard */,
 				DEBAFF5D1853E9480088BEA8 /* SDCoreDataController.h */,
 				DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */,
+				DE97610918554450003D197D /* BSHTTPSessionManager.h */,
+				DE97610A18554450003D197D /* BSHTTPSessionManager.m */,
 				DE9A926E1853E3E300798F11 /* Images.xcassets */,
 				DE9A92651853E3E300798F11 /* SignificantDates.xcdatamodeld */,
 				DE9A92541853E3E200798F11 /* Supporting Files */,
@@ -370,6 +376,7 @@
 				DE21440E1853FB2F00437BC1 /* SDDateTableViewController.m in Sources */,
 				DE9A92671853E3E300798F11 /* SignificantDates.xcdatamodeld in Sources */,
 				DE9A925A1853E3E300798F11 /* main.m in Sources */,
+				DE97610B18554450003D197D /* BSHTTPSessionManager.m in Sources */,
 				DE21440C1853FB2F00437BC1 /* SDDateDetailViewController.m in Sources */,
 				DEBAFF5F1853E9480088BEA8 /* SDCoreDataController.m in Sources */,
 			);
@@ -384,6 +391,7 @@
 				DE21440B1853FB2F00437BC1 /* SDAddDateViewController.m in Sources */,
 				DEBAFF601853E9480088BEA8 /* SDCoreDataController.m in Sources */,
 				DE2144021853FA8F00437BC1 /* Holiday.m in Sources */,
+				DE97610C18554450003D197D /* BSHTTPSessionManager.m in Sources */,
 				DE2144001853FA8F00437BC1 /* Birthday.m in Sources */,
 				DE21440F1853FB2F00437BC1 /* SDDateTableViewController.m in Sources */,
 			);
