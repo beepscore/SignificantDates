@@ -12,11 +12,13 @@
 #import "SDDateDetailViewController.h"
 #import "Holiday.h"
 #import "Birthday.h"
+#import "BSHTTPSessionManager.h"
 
 @interface SDDateTableViewController ()
 
 @property (nonatomic, strong) NSDateFormatter *dateFormatter;
 @property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) BSHTTPSessionManager *httpSessionManager;
 @end
 
 @implementation SDDateTableViewController
@@ -49,6 +51,18 @@
     }];
 }
 
+- (void)loadRecordsFromNetwork {
+    self.httpSessionManager = [BSHTTPSessionManager sharedInstance];
+    [self.httpSessionManager GET:@"classes/Holiday"
+                      parameters:@{}
+                         success:^(NSURLSessionDataTask *task, id response){
+                             NSLog(@"yay, sucess");
+                         }
+                         failure:^(NSURLSessionDataTask *task, NSError *error){
+                             NSLog(@"error %@", [error description]);
+                         }];
+}
+
 - (void)viewDidLoad
 {
     // self.entityName has already been set (by instantiator from storyboard?)
@@ -60,7 +74,7 @@
     [self.dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     
     [self loadRecordsFromCoreData];
-    
+    [self loadRecordsFromNetwork];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
