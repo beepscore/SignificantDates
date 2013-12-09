@@ -38,6 +38,8 @@
 		DE9A92831853E3E300798F11 /* SignificantDatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A92821853E3E300798F11 /* SignificantDatesTests.m */; };
 		DEBAFF5F1853E9480088BEA8 /* SDCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */; };
 		DEBAFF601853E9480088BEA8 /* SDCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */; };
+		DEFFB6F41855744200E1448E /* BSParseDotComRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6F31855744200E1448E /* BSParseDotComRequestSerializer.m */; };
+		DEFFB6F51855744200E1448E /* BSParseDotComRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFFB6F31855744200E1448E /* BSParseDotComRequestSerializer.m */; };
 		F40A2448BFF145B394C2B863 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB75BF26AF714995B95FE358 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		DEBAFF5D1853E9480088BEA8 /* SDCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataController.h; sourceTree = "<group>"; };
 		DEBAFF5E1853E9480088BEA8 /* SDCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataController.m; sourceTree = "<group>"; };
 		DEBAFF611853EA550088BEA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DEFFB6F21855744200E1448E /* BSParseDotComRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSParseDotComRequestSerializer.h; path = SignificantDates/Networking/BSParseDotComRequestSerializer.h; sourceTree = "<group>"; };
+		DEFFB6F31855744200E1448E /* BSParseDotComRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSParseDotComRequestSerializer.m; path = SignificantDates/Networking/BSParseDotComRequestSerializer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +244,8 @@
 			children = (
 				DE97610918554450003D197D /* BSHTTPSessionManager.h */,
 				DE97610A18554450003D197D /* BSHTTPSessionManager.m */,
+				DEFFB6F21855744200E1448E /* BSParseDotComRequestSerializer.h */,
+				DEFFB6F31855744200E1448E /* BSParseDotComRequestSerializer.m */,
 			);
 			name = Networking;
 			path = ..;
@@ -381,6 +387,7 @@
 				DE2143FF1853FA8F00437BC1 /* Birthday.m in Sources */,
 				DE2144011853FA8F00437BC1 /* Holiday.m in Sources */,
 				DE21440A1853FB2F00437BC1 /* SDAddDateViewController.m in Sources */,
+				DEFFB6F41855744200E1448E /* BSParseDotComRequestSerializer.m in Sources */,
 				DE2144161853FC3300437BC1 /* SDTableViewCell.m in Sources */,
 				DE21440E1853FB2F00437BC1 /* SDDateTableViewController.m in Sources */,
 				DE9A92671853E3E300798F11 /* SignificantDates.xcdatamodeld in Sources */,
@@ -399,6 +406,7 @@
 				DE9A92831853E3E300798F11 /* SignificantDatesTests.m in Sources */,
 				DE21440B1853FB2F00437BC1 /* SDAddDateViewController.m in Sources */,
 				DEBAFF601853E9480088BEA8 /* SDCoreDataController.m in Sources */,
+				DEFFB6F51855744200E1448E /* BSParseDotComRequestSerializer.m in Sources */,
 				DE2144021853FA8F00437BC1 /* Holiday.m in Sources */,
 				DE97610C18554450003D197D /* BSHTTPSessionManager.m in Sources */,
 				DE2144001853FA8F00437BC1 /* Birthday.m in Sources */,
