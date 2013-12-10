@@ -26,4 +26,7 @@
 - (instancetype)initWithBaseURL:(NSURL *)url
            sessionConfiguration:(NSURLSessionConfiguration *)configuration;
 
+- (void)getHoliday;
+- (void)getHoliday2;
+
 @end

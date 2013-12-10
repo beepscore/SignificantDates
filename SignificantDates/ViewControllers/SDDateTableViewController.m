@@ -53,14 +53,8 @@
 
 - (void)loadRecordsFromNetwork {
     self.httpSessionManager = [BSHTTPSessionManager sharedInstance];
-    [self.httpSessionManager GET:@"classes/Holiday"
-                      parameters:@{}
-                         success:^(NSURLSessionDataTask *task, id response){
-                             NSLog(@"yay, sucess");
-                         }
-                         failure:^(NSURLSessionDataTask *task, NSError *error){
-                             NSLog(@"error %@", [error description]);
-                         }];
+//    [self.httpSessionManager getHoliday];
+    [self.httpSessionManager getHoliday2];
 }
 
 - (void)viewDidLoad
