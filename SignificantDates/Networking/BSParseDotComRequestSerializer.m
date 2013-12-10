@@ -15,6 +15,8 @@ static NSString * const kBSParseRestAPIKey = @"8mcjeFXrxdu3cgdeK1O41GOIMXjjPdXfI
 
 @implementation BSParseDotComRequestSerializer
 
+#pragma mark - Initializers
+
 -(NSURLRequest*)requestBySerializingRequest:(NSURLRequest *)request
                              withParameters:(NSDictionary *)parameters
                                       error:(NSError *__autoreleasing *)error
@@ -29,10 +31,24 @@ static NSString * const kBSParseRestAPIKey = @"8mcjeFXrxdu3cgdeK1O41GOIMXjjPdXfI
 
     // change type from NSMutableDictionary to NSDictionary
     NSDictionary *extendedParameters = [NSDictionary dictionaryWithDictionary:mutableParameters];
+    // NSLog(@"extendedParameters %@", extendedParameters);
 
+    NSLog(@"self.HTTPRequestHeaders %@", self.HTTPRequestHeaders);
+
+    // TODO: clearAuthorizationHeader has no effect here?
+    [self clearAuthorizationHeader];
+    
     return [super requestBySerializingRequest:request
                                withParameters:extendedParameters
                                         error:error];
+}
+
+- (NSMutableURLRequest *)requestWithMethod:(NSString *)method URLString:(NSString *)URLString parameters:(NSDictionary *)parameters
+{
+    NSMutableURLRequest *request = [super requestWithMethod:method
+                                                  URLString:URLString
+                                                 parameters:parameters];
+    return request;
 }
 
 @end
